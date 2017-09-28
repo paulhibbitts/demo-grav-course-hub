@@ -1,3 +1,74 @@
+# v1.7.5
+## 09/28/2017
+
+1. [](#improved)
+    * Added support for checkmarked lists in Important Reminders area
+
+# v1.7.4
+## 09/22/2017
+
+1. [](#improved)
+    * Improved global handling of 'chromeless' display mode for embedded pages (thanks Ricardo)
+1. [](#bugfix)
+    * Removed support for initial 'chromeless' feature URL flag alias 'onlydisplaypagecontent'
+
+# v1.7.3
+## 09/08/2017
+
+1. [](#improved)
+    * Added site name to default RSS/Atom Feed names
+    * Ordering for home page modular content areas now set in parent page frontmatter
+
+# v1.7.2
+## 09/07/2017
+
+1. [](#bugfix)
+    * Set alphabetical ordering for home page modular content areas
+
+# v1.7.1
+## 07/03/2017
+
+1. [](#new)
+    * Added 'chromeless' alias for 'onlydisplaypagecontent' URL flag
+
+# v1.7.0
+## 06/26/2017
+
+1. [](#improved)
+    * Updated accessibility of links
+
+# v1.6.9
+## 06/23/2017
+
+1. [](#improved)
+    * Added invisible h3 tags for screen readers when visible page titles are hidden
+
+# v1.6.8
+## 06/17/2017
+
+1. [](#bugfix)
+    * Fixed sidebar display when 'Chromeless Pages' setting is active
+
+# v1.6.7
+## 06/17/2017
+
+1. [](#new)
+    * Added option to hide site navigation elements (useful when embedding pages into another system, e.g. LMS)
+    * Added option to customize View/Edit in Git introductory text
+    * Added optional additional text to CC licenses
+    * Added option to hide sidebar on blog pages
+1. [](#improved)
+    * Adjusted spacing for 'Edit this Theme' link
+    * Broadened support for 'onlydisplaypagecontent' URL flag
+
+# v1.6.6
+## 05/29/2017
+
+1. [](#new)
+    * Added optional additional text to CC licenses
+1. [](#improved)
+    * Adjusted spacing for 'Edit this Theme' link
+
 # v1.6.5
 ## 05/15/2017
 

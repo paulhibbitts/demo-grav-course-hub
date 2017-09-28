@@ -1,7 +1,6 @@
 ---
 title: Home
 blog_url: home
-gitrepoeditlinkurl: 'https://github.com/paulhibbitts/demo-grav-course-hub/tree/master/pages/01.home'
 body_classes: header-image fullwidth
 child_type: item
 

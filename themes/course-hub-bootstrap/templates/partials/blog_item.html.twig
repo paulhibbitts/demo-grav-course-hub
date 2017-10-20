@@ -1,8 +1,9 @@
 <div class="list-item">
 
   {% set header_image = page.header.header_image|defined(true) %}
-  {% set header_image_width  = page.header.header_image_width|defined(900) %}
-  {% set header_image_height = page.header.header_image_height|defined(300) %}
+  {# changed default image width and height - hibbittsdesign.org #}
+  {% set header_image_width  = page.header.header_image_width|defined(930) %}
+  {% set header_image_height = page.header.header_image_height|defined(310) %}
   {% set header_image_file = page.header.header_image_file %}
 
   <div class="list-blog-header">
@@ -19,15 +20,17 @@
     {% else %}
       {# added page title icon - hibbittsdesign.org #}
       {% if page.header.icon %}
-        {% set titleicon = page.header.icon %}
-      {% else %}
-        {% set titleicon = config.site.icon.post %}
+            {% set titleicon = page.header.icon %}
+          {% else %}
+            {% if config.site.icon.post %}
+              {% set titleicon = config.site.icon.post %}
+            {% endif %}
       {% endif %}
-        <h3>
-          <a href="{{ page.url }}">
-            <i class="fa fa-{{ titleicon }}" aria-hidden="true"></i>
-            {{ page.title }}</a>
-        </h3>
+      {% if titleicon %}
+        <h3 class="p-name"><a href="{{ page.url }}" class="u-url"><i class="fa fa-{{ titleicon }}" aria-hidden="true"></i> {{ page.title }}</a></h3>
+      {% else %}
+        <h3 class="p-name"><a href="{{ page.url }}" class="u-url">{{ page.title }}</a></h3>
+      {% endif %}
     {% endif %}
 
     {# remove date display - hibbittsdesign.org #}
@@ -50,12 +53,28 @@
       {{ page.media.images|first.cropResize(900,600).html('','blog-header-image') }}
     {% else %}
       {% if header_image %}
-        {% if header_image_file %}
-          {% set header_image_media = page.media.images[header_image_file] %}
+      {% if header_image_file %}
+        {% set header_image_media = page.media.images[header_image_file] %}
+      {% else %}
+        {% set header_image_media = page.media.images|first %}
+      {% endif %}
+
+        {# support image credit tag - hibbittsdesign.org #}
+        {% if page.header.header_image_credit %}
+          <div class="image-credit-wrapper"><span class="image-credit">
+            {% if page.header.header_image_creditlink %}
+              Image: <a class="newwindow external-link" href="{{ page.header.header_image_creditlink }}">
+              {{ page.header.header_image_credit }}</a></span>
+              <img src="{{ header_image_media.cropZoom(header_image_width, header_image_height).url }}" alt="{{ page.header.header_image_alt_text }}"/>
+            {% else %}
+              Image: {{ page.header.header_image_credit }}</span>
+              <img src="{{ header_image_media.cropZoom(header_image_width, header_image_height).url }}" alt="{{ page.header.header_image_alt_text }}"/>
+            {% endif %}
+          </div>
         {% else %}
-          {% set header_image_media = page.media.images|first %}
+          <img src="{{ header_image_media.cropZoom(header_image_width, header_image_height).url }}" alt="{{ page.header.header_image_alt_text }}"/>
         {% endif %}
-        {{ header_image_media.cropZoom(header_image_width, header_image_height).html }}
+
       {% endif %}
     {% endif %}
   </div>
@@ -68,8 +87,12 @@
         <hr>
         {# added Git repository edit link -  hibbittsdesign.org #}
         {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hidegitrepoeditlink) and not (page.slug == 'pages') %}
-          {% include 'partials/gitrepo_page_link.html.twig' %}
           <br><br>
+          <span style="color: #888888;">
+          <p>{{ config.site.gitrepo.editnotetext }}
+          {% include 'partials/gitrepo_link.html.twig' %}
+          </p>
+          <br>
         {% endif %}
         {% set show_prev_next = true %}
       {% else %}
@@ -101,9 +124,13 @@
       <p>{{ content }}</p>
         <hr>
         {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hidegitrepoeditlink) and not (page.slug == 'pages') %}
-        {% include 'partials/gitrepo_page_link.html.twig' %}
-        <br><br>
-      {% endif %}
+          <br>
+          <span style="color: #888888;">
+          <p>{{ config.site.gitrepo.editnotetext }}
+          {% include 'partials/gitrepo_link.html.twig' %}
+          </p>
+          <br>
+        {% endif %}
       {% set show_prev_next = true %}
     {% endif %}
 

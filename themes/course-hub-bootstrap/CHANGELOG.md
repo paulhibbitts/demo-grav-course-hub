@@ -1,7 +1,63 @@
+# v1.8.3
+## 10/21/2017
+
+1. [](#improved)
+    * Updated 'Edit in Git' tree URL calculation to display page folders for pages with child pages
+
+# v1.8.2
+## 10/20/2017
+
+1. [](#improved)
+    * Updated course hub demo pages in theme '_demo' folder
+1. [](#bugfix)
+    * Support for custom 'Edit in Git' URL in page header restored
+
+# v1.8.1
+## 10/20/2017
+
+1. [](#bugfix)
+    * Fixed automatic 'Site Theme Files' URL calculation
+
+# v1.8.0
+## 10/19/2017
+
+1. [](#bugfix)
+    * Fixed automatic 'Edit in Git' tree URL calculation for BitBucket and generic Git repositories
+
+# v1.7.9
+## 10/18/2017
+
+1. [](#new)
+    * Further streamlined Git Sync setup step by automating 'Edit in Git' tree URL calculation
+
+# v1.7.8
+## 10/11/2017
+
+1. [](#bugfix)
+    * 'featured' posts are now only displayed on their parent blog page (to support multiple blogs on one site)
+    * Fixed title alignment issue when no blog post icon is assigned
+
+# v1.7.7
+## 10/09/2017
+
+1. [](#new)
+    * Added support for image alt text on blog post image headers
+1. [](#improved)
+    * Revised Blog Item Image Captions layout in Blueprint
+1. [](#bugfix)
+    * Removed incorrect help text for image caption options
+    * Fixed incorrect position of image credit in very wide Browser windows
+
+# v1.7.6
+## 10/02/2017
+
+1. [](#new)
+    * Added support for image captions on blog post image headers
+
 # v1.7.5
 ## 09/28/2017
 
-1. [](#improved)
+1. [](#new)
     * Added support for checkmarked lists in Important Reminders area
 
 # v1.7.4

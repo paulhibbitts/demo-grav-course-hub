@@ -1,3 +1,122 @@
+# v1.9.72
+## 12/12/2017
+
+1. [](#new)
+    * Added embed.ly card link only page template
+
+# v1.9.71
+## 12/10/2017
+
+1. [](#improved)
+    * Adjusted CSS font for use within Canvas
+    * Revised dropdown menu label for experimental CSS styling option to better match Canvas LMS when embedding content
+    * Updated course hub demo pages in theme '_demo' folder
+1. [](#bugfix)
+    * Fixed example embedded slides and associated HTML and PDF links
+
+# v1.9.7
+## 12/07/2017
+
+1. [](#new)
+    * Added experimental CSS styling option to better match Canvas LMS when embedding content
+
+## 12/04/2017
+
+1. [](#improved)
+    * Updated example accordion page in '_demo' pages folder
+    * Updated example embedded slides and associated HTML and PDF links
+1. [](#bugfix)
+    * Restored missing Category page template
+    * Restored missing Topic page template
+
+# v1.9.5
+## 11/21/2017
+
+1. [](#new)
+    * Added experimental support for accordion page templates
+    * Added example 'Accordion' page in '_demo' pages folder
+    * Added example 'Home Highlights' page in '_demo' pages folder for embedding into another system (i.e. LMS)
+    * Added example 'Twitter Feed' page in '_demo' pages folder for use with included Page Inject plugin
+    * Added example 'Embed.ly Card' page in '_demo' pages folder for use with included Page Inject plugin
+
+# v1.9.4
+## 11/20/2017
+
+1. [](#new)
+    * Added experimental support for (optional) separate summary field for blog items
+1. [](#improved)
+    * Updated embed.ly card page template and blueprint with alignment option
+
+# v1.9.3
+## 11/19/2017
+
+1. [](#bugfix)
+    * Fixed support for blog header image credit storage in external meta file
+
+# v1.9.2
+## 11/19/2017
+
+1. [](#improved)
+    * Added support for header image with 'class preparations' modular template
+
+# v1.9.1
+## 11/15/2017
+
+1. [](#improved)
+    * Aligned page header variable name to hide Git Sync link with Open Publishing Space (hide_git_sync_repo_link)
+    * Aligned other page header variables to be in the same style as Open Publishing Space (i.e. hide_from_post_list, git_sync_repo_link and hide_page_title)
+1. [](#bugfix)
+    * Fixed modular 'default' template
+
+# v1.9.0
+## 11/09/2017
+
+1. [](#bugfix)
+    * Restored 'Twitter feed' template and blueprint files to expected locations
+
+# v1.8.9
+## 11/09/2017
+
+1. [](#improved)
+    * Renamed 'Twitter widget' template to 'Twitter feed' (same as in the Open Publishing Space theme)
+
+# v1.8.8
+## 11/04/2017
+
+1. [](#new)
+    * Added experimental embed.ly card page template
+    * Added experimental Twitter widget page template
+    * Added blog list page metadata blueprint
+
+# v1.8.7
+## 10/27/2017
+
+1. [](#improved)
+    * Updated course hub demo pages in theme '_demo' folder
+
+# v1.8.6
+## 10/26/2017
+
+1. [](#improved)
+    * Adjusted order of items in Footer area
+
+# v1.8.5
+## 10/26/2017
+
+1. [](#new)
+    * Option to display Creative Commons license with icon only
+
+# v1.8.4
+## 10/25/2017
+
+1. [](#new)
+    * Added option to display Git Sync link in Footer area
+    * Added option for Git Sync link to view git repository
+1. [](#improved)
+    * Improved display of 'Site Theme Files' links
+    * Improved display of Git Sync links within pages
+    * Placed 'edit theme' Twig into separate template file
+
 # v1.8.3
 ## 10/21/2017
 

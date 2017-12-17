@@ -1,27 +1,50 @@
 ---
 title: Syllabus
+hide_page_title: false
+hide_git_sync_repo_link: false
 published: true
 ---
 
 ##### Course Description
-This course introduces students to the art and science of designing usable, useful and enjoyable human-computer interfaces, with an emphasis on user-centered design techniques. It stresses the importance and necessity of effective interaction design techniques and presents current design methodologies and principles across multiple platforms. Students will gain valuable knowledge and experience by working in groups on a term-long design project.  
+In this course we will explore the art and science of designing usable, useful and enjoyable human-computer interfaces, with an emphasis on user-centered design techniques. The importance and necessity of effective interaction design techniques will be highlighted, and current design methodologies and principles across multiple platforms will be discussed. Students will gain valuable knowledge and experience by working in groups on a term-long design project.
 
-##### Grading (tentative)
-Individual (60%)  
-* Weekly Reading Quizzes: 10%  
-* UI Analysis (including required peer reviews): 15%  
-* UX Topic Overview: 35%  
-* Weekly One Minute Wrap-up Summaries: max. 2.5% bonus  
+_Effectively working in a team and both verbal and written communication skills are essential to do well in this course._
 
-Group (40%)  
-* Needsfinding and Exploratory Sketches: 20%  
-* Mockups and Usability Testing: 20%  
+##### Course Objectives
+* Describe and apply key UI/UX concepts, techniques, and principles
+* Assess and describe the usability and UX of a digital interface
+* Plan, conduct, and analyze user research for a digital product
+* Conceptualize, design, and prototype a digital product
+* Plan, conduct, and analyze a usability test of a digital product
+* Participate and contribute as a member of a team
+* Care about how people feel about and experience technology
 
-Reading quizzes must be submitted no later than 10:00am class day - no exceptions. Weekly one minute wrap-up summaries must be submitted no later than 11:59pm the day of class. Assignments are due at the start of class. Assignments submitted after the start of class will be deducted 10%, and no assignments will be accepted after class without valid documentation (e.g. medical certificate).  
+##### Topic Schedule
+1. What is usability and user experience design?
+1. What does a holistic user experience design process look like?
+1. How to make more strategic design decisions?
+1. How to conduct a usability inspection?
+1. How to plan, conduct, and summarize usability tests?
+1. How to understand and communicate people's needs and behaviours?
+1. How to explore and communicate possible design solutions?
+1. How to design products for how people think, learn and feel?
+1. How to design for mobile and multi-device usage?
+1. What are the essentials of effective visual communication?
 
-Students must attain an overall passing grade on the weighted average of exams in the course in order to obtain a clear pass (C or better).  
+##### Course Assignments (tentative)
+Individual (46%)
+* Weekly Reading Quizzes: 6%
+* Usability Inspection (including required peer reviews): 25%
+* Project Brief - Individual Component: 1%
+* User Research and Usability Testing - Individual Component: 7%
+* Design Mockups and Usability Testing - Individual Component: 7%
+
+Team (54%)
+* Project Brief - Team Component: 4%
+* User Research and Usability Testing - Team Component: 25%
+* Design Mockups and Usability Testing - Team Component: 25%
+
+Reading quizzes must be submitted no later than 10:00am class day - no exceptions. Late assignments will not be accepted without valid documentation (e.g. medical certificate).
 
 ##### Required Textbook
-Are you kidding me, in 2016? All required readings will be available on-line.
-
-[plugin:content-inject](/sidebar)
+Are you kidding me, in 2017? All required readings will be available on-line.   

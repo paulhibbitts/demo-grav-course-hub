@@ -1,3 +1,39 @@
+# v1.9.80
+## 12/30/2017
+
+1. [](#new)
+    * Added display list options for RSS aggregation pages
+    * Added page header variable to override Git Sync link display location
+    * Added example RSS aggregation page to 'basic' course example
+1. [](#improved)
+    * Updated 'advanced' single course demo pages in theme '_demo' folder
+    * Revised accordion and RSS Feed template names and blueprints for better readability
+
+# v1.9.79
+## 12/29/2017
+
+1. [](#new)
+    * Added experimental support for Twig Feeds Plugin (RSS aggregator)
+    * Added example RSS aggregation page to 'advanced' single course example
+1. [](#improved)
+    * Updated multi-course demo pages in theme '_demo' folder
+
+# v1.9.78
+## 12/19/2017
+
+1. [](#improved)
+    * Updated course hub demo pages in theme '_demo' folder
+
+# v1.9.77
+## 12/18/2017
+
+1. [](#new)
+    * Added embed.ly script example to example class preparations in '_demo' pages folder
+    * Added MediaPicker functionality for (blog) item header images
+1. [](#improved)
+    * Removed on-hover social sharing buttons from embedded embed.ly scripts
+    * Revised logic for hiding home page link in menubar to be name independent
+
 # v1.9.76
 ## 12/17/2017
 

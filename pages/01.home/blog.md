@@ -20,9 +20,10 @@ feed:
     description: 'Course Hub Description'
     limit: 10
 metadata:
-    'twitter:card' : summary
-    'twitter:site' : @hibbittsdesign
-    'twitter:title' : Course Hub Title
-    'twitter:description' : Course Hub Description
-    'twitter:image':
+    'twitter:card': summary
+    'twitter:site': '@hibbittsdesign'
+    'twitter:title': 'Course Hub Title'
+    'twitter:description': 'Course Hub Description'
+    'twitter:image': null
 ---
+

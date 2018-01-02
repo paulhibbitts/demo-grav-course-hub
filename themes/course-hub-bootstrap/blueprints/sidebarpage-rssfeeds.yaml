@@ -1,4 +1,4 @@
-title: Course Hub Options
+title: Course Hub Page Options
 '@extends':
     type: default
     context: blueprints://pages
@@ -43,13 +43,13 @@ form:
 
         rssfeed:
           type: tab
-          title: RSS Feed Items
+          title: RSS Feeds Display
 
           fields:
 
             rssfeeditems:
                 type: section
-                title: RSS Feed Display
+                title: Display Options
                 underline: true
 
             header.rss_feed_display_order:
@@ -61,13 +61,6 @@ form:
                     source: By Source
                     date: By Date
 
-            additional_rss_feed_info:
-                type: display
-                size: large
-                label: ''
-                markdown: true
-                content: "Note: Use the **Twig Feeds** Plugin to add or change RSS Feeds."
-
             header.rss_feed_header_images:
               type: toggle
               label: RSS Feed Header Images
@@ -76,6 +69,8 @@ form:
               options:
                 1: Enabled
                 0: Disabled
+              validate:
+                type: bool
 
             header.rss_feed_preview_paragraphs:
               type: select
@@ -86,3 +81,10 @@ form:
                   none: None
                   one: One
                   two: Two
+
+            additional_rss_feed_info:
+                type: display
+                size: large
+                label: ''
+                markdown: true
+                content: "Note: To add or change RSS Feeds use the **Twig Feeds** Plugin"

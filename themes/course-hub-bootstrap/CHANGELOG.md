@@ -1,3 +1,25 @@
+# v1.9.84
+## 01/02/2018
+
+1. [](#improved)
+    * Updated 'basic' and 'advanced' course demo pages in theme '_demo' folder
+
+# v1.9.83
+## 01/01/2018
+
+1. [](#new)
+    * Added option not to display RSS Feed Header Images when in 'chromeless' display mode
+
+# v1.9.82
+## 12/31/2017
+
+1. [](#improved)
+    * Updated RSS Feed and Blog Item blueprints
+    * Streamlined RSS Feed template logic
+1. [](#bugfix)
+    * Fixed the default visibility of the Git Sync link on 'UX News' demo page
+    * Removed unused template files
+
 # v1.9.81
 ## 12/30/2017
 
@@ -98,6 +120,7 @@
 1. [](#new)
     * Added experimental CSS styling option to better match Canvas LMS when embedding content
 
+# v1.9.6
 ## 12/04/2017
 
 1. [](#improved)

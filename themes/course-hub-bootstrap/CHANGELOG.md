@@ -1,3 +1,16 @@
+# v1.9.86
+## 01/05/2018
+
+1. [](#improved)
+    * Updated 'basic' and 'advanced' course demo pages in theme '_demo' folder
+    * Updated Twig Feeds link text for RSS feed aggregator setup
+
+# v1.9.85
+## 01/04/2018
+
+1. [](#improved)
+    * Added option to show all paragraphs (i.e. entire post) in RSS Feed items
+
 # v1.9.84
 ## 01/02/2018
 

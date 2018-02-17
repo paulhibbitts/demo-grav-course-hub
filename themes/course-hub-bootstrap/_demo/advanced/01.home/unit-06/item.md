@@ -1,7 +1,7 @@
 ---
 title: 'Week 6 (Oct 11 - Oct 17)'
+date: 10/11/2017
 published: true
-date: '11-10-2017 00:00'
 hide_from_post_list: true
 hide_git_sync_repo_link: false
 ---
@@ -15,7 +15,7 @@ hide_git_sync_repo_link: false
 [Oct 11th Class One-minute Summaries](https://canvas.sfu.ca/courses/36662/assignments/267533)
 
 ##### Presented Slides  
-[plugin:page-inject](/slide-decks/week-06)
+[plugin:page-inject](/slides/unit-06)
 
 ##### Supplemental Materials  
 [plugin:youtube](https://www.youtube.com/watch?v=QckIzHC99Xc)
@@ -24,7 +24,7 @@ hide_git_sync_repo_link: false
 [Usability Inspection Peer Reviews](https://canvas.sfu.ca/courses/36662/)
 
 ##### Required Reading  
-[plugin:page-inject](/required-readings/week-06)
+[plugin:page-inject](/required-readings/unit-06)
 
 ##### Supplemental Readings  
 [plugin:content-inject](/ux-techniques/how-to-plan-conduct-and-summarize-usability-tests/usability-testing-formal)
@@ -32,4 +32,4 @@ hide_git_sync_repo_link: false
 [plugin:content-inject](/ux-techniques/how-to-plan-conduct-and-summarize-usability-tests/usability-test-tasks)
 [plugin:content-inject](/ux-techniques/how-to-plan-conduct-and-summarize-usability-tests/usability-testing-informal)  
 
-Still wanting more? Explore the [UX Techniques Guide](../../ux-techniques-guide) or the course [Resources](../../resources).
+Still wanting more? Explore the [UX Techniques Guide](../../ux-techniques) or the course [Resources](../../resources).

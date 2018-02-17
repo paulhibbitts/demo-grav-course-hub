@@ -6,8 +6,6 @@ rss_feed_limit: '10'
 rss_feed_pagination: true
 rss_feed_header_images: true
 rss_feed_preview_paragraphs: two
-rss_feed_display_order: date
-hide_rss_feed_header_images_when_chromeless: false
 hide_page_title: false
 ---
 

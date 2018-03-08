@@ -1,3 +1,31 @@
+# v2.1.6
+## 03/01/2018
+
+1. [](#improved)
+    * Better aligned Git Sync Link Twig code with other Git Sync themes
+
+# v2.1.5
+## 02/27/2018
+
+1. [](#improved)
+    * Updated 'basic', 'intermediate' and 'advanced' course examples in theme '_demo' folder
+1. [](#bugfix)
+    * Corrected display of default modular template
+
+# v2.1.4
+## 02/20/2018
+
+1. [](#bugfix)
+    * Fixed handling of (optional) separate summary field for blog items with only a single line of text
+
+# v2.1.3
+## 02/13/2018
+
+1. [](#improved)
+    * Updated 'advanced' course example in theme '_demo' folder
+1. [](#bugfix)
+    * Revision of bootstrap theme dependency syntax to include version check
+
 # v2.1.2
 ## 02/12/2018
 

@@ -1,9 +1,12 @@
 ---
 title: 'Week 2 (Sep 13 - 19)'
-date: 09/13/2017
 published: true
+date: '13-09-2017 00:00'
 header_image_credit: 'CannedTuna, Flickr.com'
 header_image_creditlink: 'https://www.flickr.com/photos/cannedtuna/4853380320/'
+hide_from_post_list: false
+continue_link: true
+hide_git_sync_repo_link: false
 ---
 
 ##### Presented Slides
@@ -30,6 +33,9 @@ The Process of UX Design ([Download slides as PDF](#))
 ##### Recommended Reading  
 <a class="embedly-card" data-card-controls="0" data-card-align="left" href="https://medium.com/salesforce-ux/designing-digital-products-with-mental-models-45ac5c0a9dc2">Designing Digital Products with Mental Models</a>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
+##### Quick Quiz
+[h5p id="213957"]
 
 ##### Supplemental Readings  
 [plugin:content-inject](/ux-techniques/what-does-a-holistic-user-experience-design-process-look-like/user-centered-design)   

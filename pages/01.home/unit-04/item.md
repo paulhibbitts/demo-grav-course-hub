@@ -1,9 +1,12 @@
 ---
 title: 'Week 4 (Sep 27 - Oct 3)'
-date: 09/27/2017
 published: true
+date: '27-09-2017 00:00'
 header_image_credit: 'Rick Dolishny, Flickr.com'
 header_image_creditlink: 'https://www.flickr.com/photos/rdolishny/2760207306/'
+hide_from_post_list: false
+continue_link: true
+hide_git_sync_repo_link: false
 ---
 
 ##### Presented Slides
@@ -28,6 +31,9 @@ User Interface Inspections ([Download slides as PDF](#))
 ##### Required Reading  
 <a class="embedly-card" data-card-controls="0" data-card-align="left" href="https://www.uxmatters.com/mt/archives/2014/06/an-overview-of-expert-heuristic-evaluations.php">An Overview of Expert Heuristic Evaluations</a>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
+##### Quick Quiz
+[h5p id="213959"]
 
 ##### Supplemental Readings  
 [plugin:content-inject](/ux-techniques/how-to-conduct-a-usability-inspection/cognitive-walkthroughs)  

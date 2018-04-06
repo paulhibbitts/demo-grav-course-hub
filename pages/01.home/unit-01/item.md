@@ -1,9 +1,12 @@
 ---
 title: 'Week 1 (Sep 6 - 12)'
-date: 09/06/2017
 published: true
+date: '06-09-2017 00:00'
 header_image_credit: 'Amar Dhari, Flickr.com'
 header_image_creditlink: 'https://www.flickr.com/photos/13202489@N04/17656394823/'
+hide_from_post_list: false
+continue_link: true
+hide_git_sync_repo_link: false
 ---
 
 ##### Presented Slides
@@ -33,6 +36,9 @@ Create [team project group](https://canvas.sfu.ca/courses/36662/users)
 ##### Recommended Reading  
 <a class="embedly-card" data-card-controls="0" data-card-align="left" href="https://www.nngroup.com/articles/usability-101-introduction-to-usability/">Usability 101: Introduction to Usability</a>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
+##### Quick Quiz
+[h5p id="213956"]
 
 ##### Supplemental Readings  
 [plugin:content-inject](/ux-techniques/what-is-usability-and-user-experience-design/problem-statements)

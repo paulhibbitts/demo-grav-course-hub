@@ -1,3 +1,81 @@
+# v2.2.7
+## 04/06/2018
+
+1. [](#improved)
+    * Added support for H5P Content Root Path URL setting in site config (site.h5pembedrootpath) for H5P custom content pages
+
+# v2.2.6
+## 04/05/2018
+
+1. [](#improved)
+    * Added support for H5P Content Root Path URL setting in site config (site.h5pembedrootpath) for H5P ShortCode
+
+# v2.2.5
+## 04/03/2018
+
+1. [](#improved)
+    * Theme shortcodes are now automatically loaded (`Custom Shortcodes` field in ShortCode Plugin no longer needs to be manually updated)
+
+# v2.2.4
+## 04/02/2018
+
+1. [](#new)
+    * Added H5P Shortcode button in Admin Panel page content editor
+1. [](#improved)
+    * Change default alignment for Embedly Card pages
+    * Updated support for hiding sidebar on Custom Content List pages
+    * Updated 'advanced' course examples in theme '_demo' folder
+
+# v2.2.3
+## 03/31/2018
+
+1. [](#new)
+    * Added experimental H5P Shortcode support (in the formats of [h5p id=ID] and [h5p url=URL])
+    * Added experimental Embed.ly Card Shortcode support (in the format of [embedly url=URL])
+    * Added experimental Swipe Shortcode support (in the format of [swipe id=ID])
+1. [](#improved)
+    * Added additional help text to H5P content page blueprint
+    * Updated 'basic', and 'intermediate' course examples in theme '_demo' folder
+
+# v2.2.2
+## 03/30/2018
+
+1. [](#improved)
+    * Updated H5P content page blueprint
+1. [](#bugfix)
+    * Temporarily changed H5P content item reference to node (ID) only
+
+# v2.2.1
+## 03/30/2018
+
+1. [](#improved)
+    * Updated example H5P content pages in 'advanced' course examples in theme '_demo' folder
+
+# v2.2.0
+## 03/28/2018
+
+1. [](#bugfix)
+    * Corrected H5P content page blueprint
+
+# v2.1.9
+## 03/28/2018
+
+1. [](#new)
+    * Added experimental H5P content page template
+
+# v2.1.8
+## 03/15/2018
+
+1. [](#improved)
+    * Changed theme author information to Hibbitts Design
+
+# v2.1.7
+## 03/11/2018
+
+1. [](#improved)
+    * Added experimental CSS styling files for light and dark grey site navbar
+    * Updated ReadMe file
+
 # v2.1.6
 ## 03/01/2018
 
@@ -713,7 +791,7 @@
 ## 09/15/2016
 
 1. [](#bugfix)
-    * Fixed display issue with 'Featured' posts
+    * Fixed display issue with 'featured' posts
 
 # v1.4.3
 ## 08/28/2016

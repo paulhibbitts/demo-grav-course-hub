@@ -1,3 +1,46 @@
+# v2.3.5
+## 07/02/2018
+
+1. [](#improved)
+    * Updated 'advanced' course examples in theme '_demo' folder
+
+# v2.3.4
+## 06/18/2018
+
+1. [](#improved)
+    * Reorganized template files for better compatibility with future Open Course Hub themes
+
+# v2.3.3
+## 06/15/2018
+
+1. [](#new)
+    * Added templates and blueprints for PDFs and SpeakerDeck files
+
+# v2.3.2
+## 05/18/2018
+
+1. [](#improved)
+    * Added check for missing Git Sync plugin
+
+# v2.3.1
+## 05/14/2018
+
+1. [](#improved)
+    * Removed Sitemap Plugin dependency
+    * Removed seldom needed "Advanced" Tab options within the Admin Panel (via custom default.yaml blueprint)
+
+# v2.3.0
+## 04/29/2018
+
+1. [](#new)
+    * Added 'Read Me' page to default demo pages
+
+# v2.2.9
+## 04/24/2018
+
+1. [](#improved)
+    * Added Blueprint option to display custom content item titles
+
 # v2.2.8
 ## 04/23/2018
 

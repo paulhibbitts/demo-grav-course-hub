@@ -1,9 +1,11 @@
 ---
 title: Resources
 published: true
+hide_page_title: false
+hide_git_sync_repo_link: false
 ---
 
-#### Reflective Writing Guides  
+#### Reflective Writing
 *   [A short guide to reflective writing](https://intranet.birmingham.ac.uk/as/libraryservices/library/skills/asc/documents/public/Short-Guide-Reflective-Writing.pdf)
 *   [Online Guide to Reflective Writing](https://nile.northampton.ac.uk/bbcswebdav/pid-1244383-dt-content-rid-3278540_1/courses/Centre-for-Achievement-and-Performance/Skills/Reflective%20Writing/Reflective%20Writing%20-%20Feb%202017.pdf)
 *   [Reflective Toolbox](http://writeonline.ca/media/documents/ReflectiveToolbox.pdf)
